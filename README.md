@@ -22,7 +22,7 @@ Model training code, using AC-ResNet and SM-CDMANE, is shown in the file：
 4. h5py == 3.1.0
 5. matplotlib == 3.3.1
 
-Moedl has been written and tested with the above dependencies. Performance with other module versions has not been tested.
+Model has been written and tested with the above dependencies. Performance with other module versions has not been tested.
 
 # Preparing Data
 The input to the DNN must be in '.mat' format, which can be edited in MATLAB or Python.
