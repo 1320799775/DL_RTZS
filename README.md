@@ -27,4 +27,4 @@ Model has been written and tested with the above dependencies. Performance with 
 # Preparing Data
 The input to the DNN must be in '.mat' format, which can be edited in MATLAB or Python.
 
-Prior to input into the network model, the FID need to be zero-filled to 4096 complex points and Fourier transformed to the spectrum. Then, the spectrum is phased and normalized to 1.
+Prior to input into the network model, the FID data needs to be zero-filled to 4096 complex points and Fourier transformed to the spectrum. Then, the spectrum is phased, taken as the real part, and normalized to 1.
