@@ -2,7 +2,7 @@
 A deep learning method for obtaining ultraclean pure shift NMR spectra. 
 
 # Profiles
-Real time ZS experimental data of quinine (divided into 2 spectra, according to the preparing method of dealing with spectral width of over 4096 Hz in the paper), azithromycin and strychnine:
+Real time ZS experimental data of quinine (divided into 2 spectra, according to the preprocessing method of dealing with spectral width of over 4096 Hz in the paper), azithromycin and strychnine:
 1. exp_quinine_1.mat
 2. exp_quinine_2.mat
 2. exp_azithromycin.mat
@@ -26,7 +26,7 @@ Model training code, using AC-ResNet and SM-CDMANE, is shown in the file：
 Model has been written and tested with the above dependencies. Performance with other module versions has not been tested.
 
 # Preparing Data
-The input to the DNN must be in '.mat' format with variable name of 'data', which can be edited in MATLAB or Python. 
+The input to the DNN must be in '.mat' format with the variable name of 'data', which can be edited in MATLAB or Python. 
 
 Prior to input into the network model, the FID data containing less than 4096 complex points needs to be zero-filled to 4096 complex points and Fourier transformed. Then, the spectrum is phased,  and only the real part is taken and normalized to 1.
 
