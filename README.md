@@ -8,7 +8,7 @@ Real time ZS experimental data of quinine (divided into 2 spectra, according to 
 3. exp/exp_azithromycin.txt
 4. exp/exp_strychnine.txt
 
-Real time ZS experimental data of quinine from the University of Manchester (weblink: https://data.mendeley.com/datasets/rgj4jwcsnz).
+Real time ZS experimental data of quinine from the University of Manchester (weblink: https://data.mendeley.com/datasets/rgj4jwcsnz):
 1. exp/Pure_shift_archive_Varian
 
 Model weight file (model_rtzs.h5) can be download from the weblink: https://www.dropbox.com/s/1yfoj91r7n2d505/model_rtzs.h5
