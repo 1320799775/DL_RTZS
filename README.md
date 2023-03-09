@@ -11,7 +11,7 @@ Real time ZS experimental data of quinine (divided into 2 spectra, according to 
 Real time ZS experimental data of quinine from the University of Manchester (weblink: https://data.mendeley.com/datasets/rgj4jwcsnz):
 1. exp/Pure_shift_archive_Varian
 
-Model weight file (model_rtzs.h5) can be download from the weblink: https://www.dropbox.com/s/1yfoj91r7n2d505/model_rtzs.h5
+Model weight file (model_rtzs.h5) can be download from the weblink: https://www.dropbox.com/s/1yfoj91r7n2d505/model_rtzs.h5. 'model_rtzs.h5' needs to be in the 'model' folder.
 
 Model can be tested or used by the file:
 1. modelTest.py
