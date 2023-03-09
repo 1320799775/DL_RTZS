@@ -37,6 +37,7 @@ The configuration files of 'load_Varian_fid_to_spec.m' is shown in the files:
 5. matplotlib == 3.3.1
 
 Model has been written and tested with the above dependencies. Performance with other module versions has not been tested.
+Training code is based on old version Keras (Keras 2.2.4), so tensorflow 2.6 and later is not applicable.
 
 # Generating Dataset and Training Model
 
