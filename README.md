@@ -3,7 +3,8 @@ A deep learning method for obtaining ultraclean pure shift NMR spectra.
 
 # Profiles
 Programs for TensorFolw 2.4.0:
-1.Tensorflow 2.4.0
+
+1.TensorFlow 2.4.0
 
 Real time ZS experimental data of quinine (divided into 2 spectra, according to the preparing method of dealing with spectral width of over 4096 Hz in the paper), azithromycin and strychnine:
 1. exp_quinine_1.mat
