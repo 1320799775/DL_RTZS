@@ -20,6 +20,7 @@ Model training code, using AC-ResNet and SM-CDMANE, is shown in the file：
 1. modelTrain.py
 
 # Dependencies
+Python == 3.6
 1. keras == 2.2.4
 2. numpy == 1.16.0
 3. tensorfolw == 1.14.0
